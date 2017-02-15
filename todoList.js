@@ -10,5 +10,7 @@ var todoList = (props) => (
 
 var todos=['Learn React', 'Crush Recast.ly', 'Maybe sleep']
  
+// adding the list to the window global object
 window.todoList = todoList;
+
 // ReactDOM.render(<todoList />, getElementById(''));
