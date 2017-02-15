@@ -1,5 +1,12 @@
-var App = () => (
-	<div>React this</div>
+var Bananas = () => <li>Bananas</li>
+
+var GroceryList = () => (
+	<div>
+		<ul>
+			<Bananas />
+			<li>Stawberries</li>
+		</ul>
+	</div>
 );
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<GroceryList />, document.getElementById('app'));
