@@ -8,5 +8,6 @@ var todoList = (props) => (
 	</div>
 );
 
+var todos=['Learn React', 'Crush Recast.ly', 'Maybe sleep']
  
 ReactDOM.render(<todoList />, getElementById(''));
