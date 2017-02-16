@@ -1,4 +1,4 @@
-var todoList = (props) => (
+var TodoList = (props) => (
 	<div>
 		<ul>
 	    <li>{props.todos[0]}</li>
@@ -8,9 +8,9 @@ var todoList = (props) => (
 	</div>
 );
 
-var todos=['Learn React', 'Crush Recast.ly', 'Maybe sleep']
+// var todos=['Learn React', 'Crush Recast.ly', 'Maybe sleep']
  
 // adding the list to the window global object
-window.todoList = todoList;
-
+window.TodoList = TodoList;
+//window.todos = todos;
 // ReactDOM.render(<todoList />, getElementById(''));
